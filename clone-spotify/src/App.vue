@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <All />
-      <nav class="bg-black p-20">
+      <nav class="bg-black p-1">
         <Nave />
       </nav>
 
