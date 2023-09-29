@@ -1,11 +1,15 @@
 <template>
   <div id="app" >
-    <div>
-      <All />
+    <div class="flex">
+    <div class="w-1/4">
       <nav class="bg-black p-1">
         <Nave />
       </nav>
-
+    </div>
+    <div class="w-3/4">
+      <!-- Conteúdo da Main.vue -->
+      <Main />
+    </div>
     </div>
   </div>
 </template>

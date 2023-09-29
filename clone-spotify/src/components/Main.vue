@@ -1,10 +1,16 @@
 <template>
-   
-  </template>
-  
-  <script>
+ 
+    
+   <div class="flex h-full ">
+      
+    </div>
+ 
 
-  </script>
+</template>
+  
+<script>
+
+</script>
   
   
   
