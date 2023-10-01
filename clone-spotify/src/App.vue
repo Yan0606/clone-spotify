@@ -6,9 +6,9 @@
         <Nave />
       </nav>
     </div>
-    <div class="w-3/4">
+    <div class="w-3/4 bg-black p-1">
       <!-- Conteúdo da Main.vue -->
-      <Main />
+      <Main/>
     </div>
     </div>
   </div>
