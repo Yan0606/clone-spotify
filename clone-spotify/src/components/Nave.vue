@@ -1,5 +1,4 @@
 <template>
-  
   <div class="bg-gray-900 p-4 rounded-lg shadow-md w-80 mb-1 ">
     <img src="../components/img/Spotify.png" alt="Logo Spotify" class="w-22 h-8">
 
@@ -32,7 +31,19 @@
       <button class="bg-white text-black rounded-full h-8 w-36">Explore podcasts</button>
     </div>
   </div>
-  <p class="text-white h-96 "></p>
+
+  <div class="border-b border-gray-300 my-5 "></div>
+  <div class="flex items-center ">
+    <p class="text-white h-9 px-2">Playlist do Yan Andrade</p>
+    <img src="../components/img/mee.png" alt="icone de lupa" class="w-5 h-5 mb-2.5 ml-24">
+  </div>
+  <div class="text-sm px-3 ">
+    <p class="text-white h-7 ">Mix de Charlie Brown Jr</p>
+    <p class="text-white h-7">Mix de Beatles</p>
+    <p class="text-white h-7">Mix de Queen</p>
+    <p class="text-white h-7 ">Reggae</p>
+  </div>
+  <p class="text-white h-40 px-2"></p>
 </template>
 
 
