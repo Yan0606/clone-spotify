@@ -15,7 +15,7 @@
   </div>
 
   <div class="bg-gray-900 p-4 rounded-lg shadow-md w-80 ">
-    <a href="#" class="flex items-center space-x-4 text-gray-300 c w-max divide-none mt-2 mb-4">
+    <a href="#" class="flex items-center space-x-4 text-gray-300 visited:text-slate-50 w-max divide-none mt-2 mb-4">
       <img src="../components/img/biblioteca.png" alt="icone de lupa" class="w-6 h-6">
       <p class="ml-4">Sua Biblioteca</p>
       <img src="../components/img/plus.png" alt="icone de mais, para criar playlist" class="w-6 h-6 ml-32">
@@ -32,6 +32,7 @@
       <button class="bg-white text-black rounded-full h-8 w-36">Explore podcasts</button>
     </div>
   </div>
+  <p class="text-white h-96 "></p>
 </template>
 
 
