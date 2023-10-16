@@ -1,14 +1,14 @@
 <template>
   <div class="bg-gray-900 p-4 rounded-lg shadow-md w-80 mb-1 ">
-    <img src="../components/img/Spotify.png" alt="Logo Spotify" class="w-22 h-8">
+    <img src="../components/img/Spotify.png" alt="Logo Spotify" class="w-20 h-6">
 
     <a href="#" class="flex items-center space-x-4 text-gray-300 visited:text-slate-50 w-min divide-none mt-2">
-      <img src="../components/img/casa.png" alt="icone de casa" class="w-6 h-6">
+      <img src="../components/img/casa.png" alt="icone de casa" class="w-5 h-5">
       <p class="ml-2">Início</p>
     </a>
 
     <a href="#" class="flex items-center space-x-4 text-gray-300 visited:text-slate-50 w-min divide-none mt-2">
-      <img src="../components/img/lupa.png" alt="icone de lupa" class="w-6 h-6">
+      <img src="../components/img/lupa.png" alt="icone de lupa" class="w-5 h-5">
       <p class="ml-2">Buscar</p>
     </a>
   </div>
@@ -32,21 +32,29 @@
     </div>
   </div>
 
-  <div class="border-b border-gray-300 my-5 "></div>
+  <div class="border-b border-gray-300 my-5"></div>
+  <div class="text-base px-14 "> 
+<p class="text-white h-10 ">Playlists do Yan </p>
+</div>
   <div class="flex items-center ">
-    <p class="text-white h-9 px-2">Playlist do Yan Andrade</p>
-    <img src="../components/img/mee.png" alt="icone de lupa" class="w-5 h-5 mb-2.5 ml-24">
+    <img src="../components/img/chorao.jpg" alt="icone de lupa" class="w-10 h-10 mb-2.5 ml-2">
+    <p class="text-white h-7 ml-3">Mix de Charlie Brown Jr</p>
   </div>
-  <div class="text-sm px-3 ">
-    <p class="text-white h-7 ">Mix de Charlie Brown Jr</p>
-    <p class="text-white h-7">Mix de Beatles</p>
-    <p class="text-white h-7">Mix de Queen</p>
-    <p class="text-white h-7 ">Reggae</p>
+  <div class="flex items-center ">
+    <img src="../components/img/beatles.jpg" alt="icone de lupa" class="w-10 h-10 mb-2.5 ml-2">
+    <p class="text-white h-7 ml-3">Mix de Beatles</p>
   </div>
+  <div class="flex items-center ">
+    <img src="../components/img/queen.jpg" alt="icone de lupa" class="w-10 h-10 mb-2.5 ml-2">
+    <p class="text-white h-7 ml-3">Mix de Queen</p>
+  </div>
+  <div class="flex items-center ">
+    <img src="../components/img/reggae.jpg" alt="icone de lupa" class="w-10 h-10 mb-2.5 ml-2">
+    <p class="text-white h-7 ml-3">Reggae</p>
+  </div>
+  
   <p class="text-white h-40 px-2"></p>
 </template>
-
-
 
 <script>
 
